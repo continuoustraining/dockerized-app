@@ -5,7 +5,7 @@
 
 # hints:
 * Rails default listen port is 3000
-* Any command must be prefixed by `bundle exec`, find a way to force a container to do that
+* Any command must be prefixed by `bundle exec`, find a way to enforce this behavior for your container
 * Gemfile is a 'plugin' definition for Rails, it should be present within the root folder of the app, Gemfile.lock should also be present
 * The command needed to perform an application creation is `rails new <path> --database=postgresql`, we wont automatize this, you should perform it manually
 * The command needed to perform a database creation is `rake db:create`, we wont automatize this, you should perform it manually
